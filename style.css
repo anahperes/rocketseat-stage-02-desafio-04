@@ -1,0 +1,119 @@
+/* BODY SET UP */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient (180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+/* PAGE = NAV + MAIN + FOOTER */
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+/* NAV = LOGO + LINKS */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+/* LIST OF LINKS ON NAV */
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL LINKS */
+a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+/* LINKS ON NAV */
+li a {
+    opacity: 0.5;
+}
+
+/* NAV LINKS ON HOVER */
+li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* LINKS ON NAV + H1 */
+li, h1 {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* MAIN = H1 + P + BUTTON */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* HEADER */
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: normal;
+  width: 490px;
+}
+
+/* SPAN ON HEADER "exclusivos" */
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+/* MAIN PARAGRAPH */
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+
+/* BUTTON */
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* LINK ON FOOTER */
+footer a {
+  font-weight: bold;
+}
+
+/* BALLS ON BOTTOM RIGHT */
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
